@@ -1,3 +1,4 @@
 __pycache__/
 runs/
 *.npy
+!reeval_2026_10/**/*.npy
