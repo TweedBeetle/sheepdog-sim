@@ -1,0 +1,52 @@
+{
+ "heuristic": {
+  "september_32_mean": 0.2528,
+  "fresh_200_mean": 0.3983,
+  "september_32_median": 0.0,
+  "fresh_200_median": 0.45,
+  "september_zero_share": 0.5625,
+  "fresh_zero_share": 0.26,
+  "diff": -0.1455,
+  "permutation_p": 0.0202
+ },
+ "laddered": {
+  "september_32_mean": 0.7275,
+  "fresh_200_mean": 0.6726,
+  "september_32_median": 0.83,
+  "fresh_200_median": 0.79,
+  "september_zero_share": 0.1562,
+  "fresh_zero_share": 0.2,
+  "diff": 0.0549,
+  "permutation_p": 0.4516
+ },
+ "no-curriculum": {
+  "september_32_mean": 0.7641,
+  "fresh_200_mean": 0.7481,
+  "september_32_median": 0.87,
+  "fresh_200_median": 0.84,
+  "september_zero_share": 0.0625,
+  "fresh_zero_share": 0.04,
+  "diff": 0.016,
+  "permutation_p": 0.7526
+ },
+ "thirty-sheep": {
+  "september_32_mean": 0.1425,
+  "fresh_200_mean": 0.1812,
+  "september_32_median": 0.0,
+  "fresh_200_median": 0.0,
+  "september_zero_share": 0.6875,
+  "fresh_zero_share": 0.71,
+  "diff": -0.0387,
+  "permutation_p": 0.548
+ },
+ "heuristic-drive-only": {
+  "september_32_mean": 0.0806,
+  "fresh_200_mean": 0.0898,
+  "september_32_median": 0.01,
+  "fresh_200_median": 0.01,
+  "september_zero_share": 0.375,
+  "fresh_zero_share": 0.455,
+  "diff": -0.0091,
+  "permutation_p": 0.7809
+ }
+}

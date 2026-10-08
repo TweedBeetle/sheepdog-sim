@@ -1,0 +1,1422 @@
+{
+ "arm": "heuristic-drive-only",
+ "n_sheep": 100,
+ "fields": 200,
+ "seeds": [
+  1000000,
+  1000199
+ ],
+ "controller": {
+  "kind": "heuristic",
+  "collect": false
+ },
+ "env": {
+  "numpy": "2.5.3",
+  "python": "3.13.5",
+  "machine": "arm64",
+  "date": "2026-10-07 22:29 CEST"
+ },
+ "seconds": 30.7,
+ "rows": [
+  {
+   "seed": 1000000,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000001,
+   "penned_frac": 0.49,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000002,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000003,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000004,
+   "penned_frac": 0.03,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000005,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000006,
+   "penned_frac": 0.07,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000007,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000008,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000009,
+   "penned_frac": 0.42,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000010,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000011,
+   "penned_frac": 0.07,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000012,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000013,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000014,
+   "penned_frac": 0.11,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000015,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000016,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000017,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000018,
+   "penned_frac": 0.06,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000019,
+   "penned_frac": 0.49,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000020,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000021,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000022,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000023,
+   "penned_frac": 0.75,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000024,
+   "penned_frac": 0.03,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000025,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000026,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000027,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000028,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000029,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000030,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000031,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000032,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000033,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000034,
+   "penned_frac": 0.03,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000035,
+   "penned_frac": 0.58,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000036,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000037,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000038,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000039,
+   "penned_frac": 0.43,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000040,
+   "penned_frac": 0.49,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000041,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000042,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000043,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000044,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000045,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000046,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000047,
+   "penned_frac": 0.48,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000048,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000049,
+   "penned_frac": 0.5,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000050,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000051,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000052,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000053,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000054,
+   "penned_frac": 0.45,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000055,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000056,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000057,
+   "penned_frac": 0.06,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000058,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000059,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000060,
+   "penned_frac": 0.11,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000061,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000062,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000063,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000064,
+   "penned_frac": 0.44,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000065,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000066,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000067,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000068,
+   "penned_frac": 0.45,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000069,
+   "penned_frac": 0.03,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000070,
+   "penned_frac": 0.47,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000071,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000072,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000073,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000074,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000075,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000076,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000077,
+   "penned_frac": 0.1,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000078,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000079,
+   "penned_frac": 0.05,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000080,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000081,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000082,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000083,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000084,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000085,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000086,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000087,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000088,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000089,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000090,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000091,
+   "penned_frac": 0.06,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000092,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000093,
+   "penned_frac": 0.08,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000094,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000095,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000096,
+   "penned_frac": 0.05,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000097,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000098,
+   "penned_frac": 0.47,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000099,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000100,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000101,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000102,
+   "penned_frac": 0.42,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000103,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000104,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000105,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000106,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000107,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000108,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000109,
+   "penned_frac": 0.08,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000110,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000111,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000112,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000113,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000114,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000115,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000116,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000117,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000118,
+   "penned_frac": 0.47,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000119,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000120,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000121,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000122,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000123,
+   "penned_frac": 0.05,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000124,
+   "penned_frac": 0.03,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000125,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000126,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000127,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000128,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000129,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000130,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000131,
+   "penned_frac": 0.46,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000132,
+   "penned_frac": 0.06,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000133,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000134,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000135,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000136,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000137,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000138,
+   "penned_frac": 0.54,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000139,
+   "penned_frac": 0.03,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000140,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000141,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000142,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000143,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000144,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000145,
+   "penned_frac": 0.46,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000146,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000147,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000148,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000149,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000150,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000151,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000152,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000153,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000154,
+   "penned_frac": 0.5,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000155,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000156,
+   "penned_frac": 0.48,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000157,
+   "penned_frac": 0.39,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000158,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000159,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000160,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000161,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000162,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000163,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000164,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000165,
+   "penned_frac": 0.14,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000166,
+   "penned_frac": 0.14,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000167,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000168,
+   "penned_frac": 0.43,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000169,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000170,
+   "penned_frac": 0.46,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000171,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000172,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000173,
+   "penned_frac": 0.46,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000174,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000175,
+   "penned_frac": 0.45,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000176,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000177,
+   "penned_frac": 0.07,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000178,
+   "penned_frac": 0.45,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000179,
+   "penned_frac": 0.44,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000180,
+   "penned_frac": 0.04,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000181,
+   "penned_frac": 0.05,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000182,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000183,
+   "penned_frac": 0.02,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000184,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000185,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000186,
+   "penned_frac": 0.06,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000187,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000188,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000189,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000190,
+   "penned_frac": 0.05,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000191,
+   "penned_frac": 0.07,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000192,
+   "penned_frac": 0.44,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000193,
+   "penned_frac": 0.46,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000194,
+   "penned_frac": 0.46,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000195,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000196,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000197,
+   "penned_frac": 0.01,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000198,
+   "penned_frac": 0.52,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  },
+  {
+   "seed": 1000199,
+   "penned_frac": 0.0,
+   "all_in": false,
+   "all_in_s": null,
+   "gcm_arrived": true
+  }
+ ]
+}

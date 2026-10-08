@@ -33,3 +33,12 @@ does not depend on which batch or which process it landed in — the control ass
 what makes a generation's ranking one fair comparison.
 
 `runs/` is gitignored; the episode copies what it uses into `production/sheepdog/data/`.
+
+## October 2026 re-evaluation
+
+`reeval_2026_10/` re-measures the September result without changing any simulation code: every
+arm on 200 fresh held-out fields (and a second independent set of 200), the untrained population,
+three more training runs under other seeds, and a seed-11 retrain that reproduces the September
+champions bit for bit. Scripts, per-field results, the September weights and the statistics are
+all in that directory; its README has the commands. At 100 sheep the curriculum dog pens 67.3%
+(95% CI 61.6–72.6) against 39.8% for the published heuristic.

@@ -1,0 +1,30 @@
+{
+ "attempt-A6/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r1-10-sheep/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r2-30-sheep/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r3-skittish/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r4-split/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r5-100-sheep/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "fresh-100/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ }
+}

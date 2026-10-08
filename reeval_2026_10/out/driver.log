@@ -1,0 +1,203 @@
+ps median 0.17s  swapins/15s 0  -> OK
+[10-07 22:21:33] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 4
+100 sheep  laddered               penned 0.673  all-in 0.465  (141s)
+[10-07 22:24:22] driver restarted with WORKERS=8 (4 kept the gate at ps 0.29 s / 0 swap-ins)
+ps median 0.12s  swapins/15s 0  -> OK
+[10-07 22:24:37] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8
+skip 100-sheep__laddered.json (exists)
+100 sheep  no-curriculum          penned 0.748  all-in 0.215  (84s)
+100 sheep  thirty-sheep           penned 0.181  all-in 0.095  (88s)
+100 sheep  heuristic              penned 0.398  all-in 0.105  (63s)
+100 sheep  heuristic-drive-only   penned 0.090  all-in 0.000  (31s)
+100 sheep  no-dog                 penned 0.000  all-in 0.000  (57s)
+[10-07 22:30:00] END rc=0 uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8
+ps median 0.14s  swapins/15s 4  -> OK
+[10-07 22:30:15] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 30 --fields 200 --workers 8
+ 30 sheep  laddered               penned 1.000  all-in 1.000  (5s)
+ 30 sheep  no-curriculum          penned 0.956  all-in 0.590  (6s)
+ 30 sheep  thirty-sheep           penned 1.000  all-in 1.000  (5s)
+ 30 sheep  heuristic              penned 1.000  all-in 1.000  (5s)
+ 30 sheep  heuristic-drive-only   penned 1.000  all-in 1.000  (5s)
+ 30 sheep  no-dog                 penned 0.000  all-in 0.000  (6s)
+[10-07 22:30:47] END rc=0 uv run --no-project reeval_2026_10/reeval.py evaluate --n 30 --fields 200 --workers 8
+ps median 0.11s  swapins/15s 8  -> OK
+[10-07 22:31:02] START uv run --no-project reeval_2026_10/reeval.py population --n 100 --fields 25 --workers 8
+dog  0: penned 0.000
+dog  1: penned 0.162
+dog  2: penned 0.000
+dog  3: penned 0.000
+dog  4: penned 0.000
+dog  5: penned 0.000
+dog  6: penned 0.192
+dog  7: penned 0.000
+dog  8: penned 0.231
+dog  9: penned 0.000
+dog 10: penned 0.016
+dog 11: penned 0.498
+dog 12: penned 0.000
+dog 13: penned 0.228
+dog 14: penned 0.023
+dog 15: penned 0.000
+dog 16: penned 0.000
+dog 17: penned 0.000
+dog 18: penned 0.000
+dog 19: penned 0.000
+dog 20: penned 0.082
+dog 21: penned 0.000
+dog 22: penned 0.086
+dog 23: penned 0.000
+dog 24: penned 0.000
+dog 25: penned 0.002
+dog 26: penned 0.000
+dog 27: penned 0.000
+dog 28: penned 0.110
+dog 29: penned 0.000
+dog 30: penned 0.000
+dog 31: penned 0.034
+dog 32: penned 0.000
+dog 33: penned 0.000
+dog 34: penned 0.000
+dog 35: penned 0.000
+dog 36: penned 0.000
+dog 37: penned 0.000
+dog 38: penned 0.002
+dog 39: penned 0.000
+dog 40: penned 0.000
+dog 41: penned 0.016
+dog 42: penned 0.000
+dog 43: penned 0.000
+dog 44: penned 0.000
+dog 45: penned 0.000
+dog 46: penned 0.000
+dog 47: penned 0.216
+[10-07 22:44:15] END rc=0 uv run --no-project reeval_2026_10/reeval.py population --n 100 --fields 25 --workers 8
+ps median 0.12s  swapins/15s 0  -> OK
+[10-07 22:44:30] START uv run --no-project reeval_2026_10/reeval.py retrain --seed 11 --workers 8
+attempt-A6 done (975s)
+ladder r1-10-sheep done (49s)
+ladder r2-30-sheep done (136s)
+ladder r3-skittish done (113s)
+ladder r4-split done (198s)
+ladder r5-100-sheep done (1832s)
+fresh-100 done (1753s)
+[10-08 00:08:46] END rc=0 uv run --no-project reeval_2026_10/reeval.py retrain --seed 11 --workers 8
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:08:46] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:09:46] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:10:46] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:11:46] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:12:46] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:13:46] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:14:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:15:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:16:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:17:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:18:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:19:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:20:47] machine busy, waiting
+reeval_2026_10/driver.sh: line 12: ~/.cache/uv/builds-v0/.tmp9iliRj/bin/python3: No such file or directory
+[10-08 00:21:47] machine busy, waiting
+[10-08 00:22:48] driver.sh killed: gate python3 pointed at a deleted uv build dir; continuing with driver2.sh
+ps median 0.59s  swapins/15s 0  -> OK
+[10-08 00:23:09] START uv run --no-project reeval_2026_10/reeval.py check-stored
+{
+ "attempt-A6/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r1-10-sheep/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r2-30-sheep/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r3-skittish/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r4-split/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "ladder-r5-100-sheep/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ },
+ "fresh-100/champion.npy": {
+  "identical": true,
+  "max_abs_diff": 0.0
+ }
+}
+[10-08 00:23:10] END rc=0 uv run --no-project reeval_2026_10/reeval.py check-stored
+ps median 0.54s  swapins/15s 7  -> OK
+[10-08 00:23:27] START uv run --no-project reeval_2026_10/reeval.py retrain --seed 21 --workers 8
+attempt-A6 done (1307s)
+ladder r1-10-sheep done (81s)
+ladder r2-30-sheep done (177s)
+ladder r3-skittish done (97s)
+ladder r4-split done (83s)
+ladder r5-100-sheep done (1717s)
+fresh-100 done (1973s)
+[10-08 01:54:03] END rc=0 uv run --no-project reeval_2026_10/reeval.py retrain --seed 21 --workers 8
+ps median 0.08s  swapins/15s 0  -> OK
+[10-08 01:54:18] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --name replicate-seed21 --theta laddered=reeval_2026_10/out/retrain-seed21/ladder-r5-100-sheep/champion.npy no-curriculum=reeval_2026_10/out/retrain-seed21/fresh-100/champion.npy thirty-sheep=reeval_2026_10/out/retrain-seed21/attempt-A6/champion.npy
+100 sheep  laddered               penned 0.773  all-in 0.375  (31s)
+100 sheep  no-curriculum          penned 0.562  all-in 0.330  (46s)
+100 sheep  thirty-sheep           penned 0.249  all-in 0.140  (92s)
+[10-08 01:57:08] END rc=0 uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --name replicate-seed21 --theta laddered=reeval_2026_10/out/retrain-seed21/ladder-r5-100-sheep/champion.npy no-curriculum=reeval_2026_10/out/retrain-seed21/fresh-100/champion.npy thirty-sheep=reeval_2026_10/out/retrain-seed21/attempt-A6/champion.npy
+ps median 0.21s  swapins/15s 0  -> OK
+[10-08 01:57:24] START uv run --no-project reeval_2026_10/reeval.py retrain --seed 31 --workers 8
+attempt-A6 done (1048s)
+ladder r1-10-sheep done (99s)
+ladder r2-30-sheep done (192s)
+ladder r3-skittish done (131s)
+ladder r4-split done (148s)
+ladder r5-100-sheep done (2133s)
+fresh-100 done (1840s)
+[10-08 03:30:35] END rc=0 uv run --no-project reeval_2026_10/reeval.py retrain --seed 31 --workers 8
+ps median 0.14s  swapins/15s 4  -> OK
+[10-08 03:30:50] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --name replicate-seed31 --theta laddered=reeval_2026_10/out/retrain-seed31/ladder-r5-100-sheep/champion.npy no-curriculum=reeval_2026_10/out/retrain-seed31/fresh-100/champion.npy thirty-sheep=reeval_2026_10/out/retrain-seed31/attempt-A6/champion.npy
+100 sheep  laddered               penned 0.796  all-in 0.630  (50s)
+100 sheep  no-curriculum          penned 0.619  all-in 0.055  (39s)
+100 sheep  thirty-sheep           penned 0.581  all-in 0.355  (40s)
+[10-08 03:32:59] END rc=0 uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --name replicate-seed31 --theta laddered=reeval_2026_10/out/retrain-seed31/ladder-r5-100-sheep/champion.npy no-curriculum=reeval_2026_10/out/retrain-seed31/fresh-100/champion.npy thirty-sheep=reeval_2026_10/out/retrain-seed31/attempt-A6/champion.npy
+ps median 0.13s  swapins/15s 8  -> OK
+[10-08 03:33:14] START uv run --no-project reeval_2026_10/reeval.py retrain --seed 41 --workers 8
+attempt-A6 done (459s)
+ladder r1-10-sheep done (30s)
+ladder r2-30-sheep done (59s)
+ladder r3-skittish done (58s)
+ladder r4-split done (60s)
+ladder r5-100-sheep done (946s)
+fresh-100 done (962s)
+[10-08 04:16:09] END rc=0 uv run --no-project reeval_2026_10/reeval.py retrain --seed 41 --workers 8
+ps median 0.18s  swapins/15s 0  -> OK
+[10-08 04:16:25] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --name replicate-seed41 --theta laddered=reeval_2026_10/out/retrain-seed41/ladder-r5-100-sheep/champion.npy no-curriculum=reeval_2026_10/out/retrain-seed41/fresh-100/champion.npy thirty-sheep=reeval_2026_10/out/retrain-seed41/attempt-A6/champion.npy
+100 sheep  laddered               penned 0.631  all-in 0.395  (38s)
+100 sheep  no-curriculum          penned 0.525  all-in 0.045  (37s)
+100 sheep  thirty-sheep           penned 0.303  all-in 0.205  (35s)
+[10-08 04:18:15] END rc=0 uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --name replicate-seed41 --theta laddered=reeval_2026_10/out/retrain-seed41/ladder-r5-100-sheep/champion.npy no-curriculum=reeval_2026_10/out/retrain-seed41/fresh-100/champion.npy thirty-sheep=reeval_2026_10/out/retrain-seed41/attempt-A6/champion.npy
+ps median 0.12s  swapins/15s 0  -> OK
+[10-08 04:18:31] START uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --start 2000000 --name fresh-fields-2
+100 sheep  laddered               penned 0.674  all-in 0.510  (33s)
+100 sheep  no-curriculum          penned 0.762  all-in 0.215  (38s)
+100 sheep  thirty-sheep           penned 0.184  all-in 0.085  (42s)
+100 sheep  heuristic              penned 0.381  all-in 0.140  (36s)
+100 sheep  heuristic-drive-only   penned 0.079  all-in 0.000  (32s)
+100 sheep  no-dog                 penned 0.000  all-in 0.000  (34s)
+[10-08 04:22:06] END rc=0 uv run --no-project reeval_2026_10/reeval.py evaluate --n 100 --fields 200 --workers 8 --start 2000000 --name fresh-fields-2
+[10-08 04:22:06] DRIVER2 DONE

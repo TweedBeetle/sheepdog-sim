@@ -1,0 +1,1441 @@
+{
+ "note": "Statistics for the October 2026 re-evaluation: reads out/, writes out/results.json.",
+ "bootstrap_resamples": 10000,
+ "fresh_fields_100_sheep": {
+  "arms": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 0.6726,
+    "penned_mean_ci": [
+     0.6162,
+     0.7263
+    ],
+    "penned_median": 0.79,
+    "penned_median_ci": [
+     0.73,
+     1.0
+    ],
+    "all_in": 93,
+    "all_in_rate": 0.465,
+    "all_in_ci": [
+     0.3972,
+     0.5341
+    ],
+    "zero_fields": 40,
+    "centre_reached": 193,
+    "centre_reached_rate": 0.965,
+    "centre_reached_ci": [
+     0.9295,
+     0.9829
+    ],
+    "median_time_to_all_in_s": 16.4
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.7481,
+    "penned_mean_ci": [
+     0.7109,
+     0.7841
+    ],
+    "penned_median": 0.84,
+    "penned_median_ci": [
+     0.82,
+     0.88
+    ],
+    "all_in": 43,
+    "all_in_rate": 0.215,
+    "all_in_ci": [
+     0.1637,
+     0.277
+    ],
+    "zero_fields": 8,
+    "centre_reached": 188,
+    "centre_reached_rate": 0.94,
+    "centre_reached_ci": [
+     0.8981,
+     0.9653
+    ],
+    "median_time_to_all_in_s": 20.6
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 0.1812,
+    "penned_mean_ci": [
+     0.1356,
+     0.2293
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 19,
+    "all_in_rate": 0.095,
+    "all_in_ci": [
+     0.0617,
+     0.1436
+    ],
+    "zero_fields": 142,
+    "centre_reached": 182,
+    "centre_reached_rate": 0.91,
+    "centre_reached_ci": [
+     0.8622,
+     0.9423
+    ],
+    "median_time_to_all_in_s": 15.9
+   },
+   "heuristic": {
+    "fields": 200,
+    "penned_mean": 0.3983,
+    "penned_mean_ci": [
+     0.3529,
+     0.4443
+    ],
+    "penned_median": 0.45,
+    "penned_median_ci": [
+     0.44,
+     0.465
+    ],
+    "all_in": 21,
+    "all_in_rate": 0.105,
+    "all_in_ci": [
+     0.0697,
+     0.1552
+    ],
+    "zero_fields": 52,
+    "centre_reached": 199,
+    "centre_reached_rate": 0.995,
+    "centre_reached_ci": [
+     0.9722,
+     0.9991
+    ],
+    "median_time_to_all_in_s": 23.0
+   },
+   "heuristic-drive-only": {
+    "fields": 200,
+    "penned_mean": 0.0898,
+    "penned_mean_ci": [
+     0.0671,
+     0.1142
+    ],
+    "penned_median": 0.01,
+    "penned_median_ci": [
+     0.0,
+     0.01
+    ],
+    "all_in": 0,
+    "all_in_rate": 0.0,
+    "all_in_ci": [
+     0.0,
+     0.0188
+    ],
+    "zero_fields": 91,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": null
+   },
+   "no-dog": {
+    "fields": 200,
+    "penned_mean": 0.0004,
+    "penned_mean_ci": [
+     0.0,
+     0.0008
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 0,
+    "all_in_rate": 0.0,
+    "all_in_ci": [
+     0.0,
+     0.0188
+    ],
+    "zero_fields": 197,
+    "centre_reached": 0,
+    "centre_reached_rate": 0.0,
+    "centre_reached_ci": [
+     0.0,
+     0.0188
+    ],
+    "median_time_to_all_in_s": null
+   }
+  },
+  "paired": {
+   "laddered - heuristic": {
+    "penned_mean_diff": 0.2743,
+    "penned_mean_diff_ci": [
+     0.1994,
+     0.3458
+    ],
+    "all_in_rate_diff": 0.36,
+    "all_in_rate_diff_ci": [
+     0.275,
+     0.44
+    ],
+    "mcnemar_all_in": {
+     "only_first": 83,
+     "only_second": 11,
+     "p_exact": 8e-15
+    }
+   },
+   "no-curriculum - heuristic": {
+    "penned_mean_diff": 0.3497,
+    "penned_mean_diff_ci": [
+     0.2899,
+     0.4083
+    ],
+    "all_in_rate_diff": 0.11,
+    "all_in_rate_diff_ci": [
+     0.04,
+     0.18
+    ],
+    "mcnemar_all_in": {
+     "only_first": 38,
+     "only_second": 16,
+     "p_exact": 0.00384
+    }
+   },
+   "laddered - no-curriculum": {
+    "penned_mean_diff": -0.0755,
+    "penned_mean_diff_ci": [
+     -0.1425,
+     -0.0116
+    ],
+    "all_in_rate_diff": 0.25,
+    "all_in_rate_diff_ci": [
+     0.165,
+     0.33
+    ],
+    "mcnemar_all_in": {
+     "only_first": 68,
+     "only_second": 18,
+     "p_exact": 5.29e-08
+    }
+   },
+   "heuristic - heuristic-drive-only": {
+    "penned_mean_diff": 0.3085,
+    "penned_mean_diff_ci": [
+     0.2564,
+     0.3603
+    ],
+    "all_in_rate_diff": 0.105,
+    "all_in_rate_diff_ci": [
+     0.065,
+     0.15
+    ],
+    "mcnemar_all_in": {
+     "only_first": 21,
+     "only_second": 0,
+     "p_exact": 9.54e-07
+    }
+   }
+  }
+ },
+ "fresh_fields_30_sheep": {
+  "arms": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 1.0,
+    "penned_mean_ci": [
+     1.0,
+     1.0
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     1.0,
+     1.0
+    ],
+    "all_in": 200,
+    "all_in_rate": 1.0,
+    "all_in_ci": [
+     0.9812,
+     1.0
+    ],
+    "zero_fields": 0,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": 12.72
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.9558,
+    "penned_mean_ci": [
+     0.947,
+     0.9643
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     1.0,
+     1.0
+    ],
+    "all_in": 118,
+    "all_in_rate": 0.59,
+    "all_in_ci": [
+     0.5208,
+     0.6558
+    ],
+    "zero_fields": 0,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": 16.8
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 1.0,
+    "penned_mean_ci": [
+     1.0,
+     1.0
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     1.0,
+     1.0
+    ],
+    "all_in": 200,
+    "all_in_rate": 1.0,
+    "all_in_ci": [
+     0.9812,
+     1.0
+    ],
+    "zero_fields": 0,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": 9.28
+   },
+   "heuristic": {
+    "fields": 200,
+    "penned_mean": 1.0,
+    "penned_mean_ci": [
+     1.0,
+     1.0
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     1.0,
+     1.0
+    ],
+    "all_in": 200,
+    "all_in_rate": 1.0,
+    "all_in_ci": [
+     0.9812,
+     1.0
+    ],
+    "zero_fields": 0,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": 9.12
+   },
+   "heuristic-drive-only": {
+    "fields": 200,
+    "penned_mean": 1.0,
+    "penned_mean_ci": [
+     1.0,
+     1.0
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     1.0,
+     1.0
+    ],
+    "all_in": 200,
+    "all_in_rate": 1.0,
+    "all_in_ci": [
+     0.9812,
+     1.0
+    ],
+    "zero_fields": 0,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": 8.8
+   },
+   "no-dog": {
+    "fields": 200,
+    "penned_mean": 0.0,
+    "penned_mean_ci": [
+     0.0,
+     0.0
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 0,
+    "all_in_rate": 0.0,
+    "all_in_ci": [
+     0.0,
+     0.0188
+    ],
+    "zero_fields": 200,
+    "centre_reached": 0,
+    "centre_reached_rate": 0.0,
+    "centre_reached_ci": [
+     0.0,
+     0.0188
+    ],
+    "median_time_to_all_in_s": null
+   }
+  },
+  "paired": {
+   "laddered - heuristic": {
+    "penned_mean_diff": 0.0,
+    "penned_mean_diff_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in_rate_diff": 0.0,
+    "all_in_rate_diff_ci": [
+     0.0,
+     0.0
+    ],
+    "mcnemar_all_in": {
+     "only_first": 0,
+     "only_second": 0,
+     "p_exact": 1.0
+    }
+   },
+   "no-curriculum - heuristic": {
+    "penned_mean_diff": -0.0442,
+    "penned_mean_diff_ci": [
+     -0.053,
+     -0.0357
+    ],
+    "all_in_rate_diff": -0.41,
+    "all_in_rate_diff_ci": [
+     -0.48,
+     -0.34
+    ],
+    "mcnemar_all_in": {
+     "only_first": 0,
+     "only_second": 82,
+     "p_exact": 4.14e-25
+    }
+   },
+   "laddered - no-curriculum": {
+    "penned_mean_diff": 0.0442,
+    "penned_mean_diff_ci": [
+     0.0357,
+     0.053
+    ],
+    "all_in_rate_diff": 0.41,
+    "all_in_rate_diff_ci": [
+     0.34,
+     0.48
+    ],
+    "mcnemar_all_in": {
+     "only_first": 82,
+     "only_second": 0,
+     "p_exact": 4.14e-25
+    }
+   },
+   "heuristic - heuristic-drive-only": {
+    "penned_mean_diff": 0.0,
+    "penned_mean_diff_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in_rate_diff": 0.0,
+    "all_in_rate_diff_ci": [
+     0.0,
+     0.0
+    ],
+    "mcnemar_all_in": {
+     "only_first": 0,
+     "only_second": 0,
+     "p_exact": 1.0
+    }
+   }
+  }
+ },
+ "second_fresh_set_100_sheep": {
+  "arms": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 0.6744,
+    "penned_mean_ci": [
+     0.6147,
+     0.7318
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     0.79,
+     1.0
+    ],
+    "all_in": 102,
+    "all_in_rate": 0.51,
+    "all_in_ci": [
+     0.4412,
+     0.5784
+    ],
+    "zero_fields": 47,
+    "centre_reached": 187,
+    "centre_reached_rate": 0.935,
+    "centre_reached_ci": [
+     0.892,
+     0.9616
+    ],
+    "median_time_to_all_in_s": 17.35
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.7616,
+    "penned_mean_ci": [
+     0.7244,
+     0.796
+    ],
+    "penned_median": 0.86,
+    "penned_median_ci": [
+     0.83,
+     0.88
+    ],
+    "all_in": 43,
+    "all_in_rate": 0.215,
+    "all_in_ci": [
+     0.1637,
+     0.277
+    ],
+    "zero_fields": 8,
+    "centre_reached": 186,
+    "centre_reached_rate": 0.93,
+    "centre_reached_ci": [
+     0.8859,
+     0.9578
+    ],
+    "median_time_to_all_in_s": 21.25
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 0.1843,
+    "penned_mean_ci": [
+     0.1404,
+     0.2303
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 17,
+    "all_in_rate": 0.085,
+    "all_in_ci": [
+     0.0537,
+     0.1319
+    ],
+    "zero_fields": 140,
+    "centre_reached": 177,
+    "centre_reached_rate": 0.885,
+    "centre_reached_ci": [
+     0.8334,
+     0.9221
+    ],
+    "median_time_to_all_in_s": 17.75
+   },
+   "heuristic": {
+    "fields": 200,
+    "penned_mean": 0.3813,
+    "penned_mean_ci": [
+     0.3341,
+     0.4283
+    ],
+    "penned_median": 0.45,
+    "penned_median_ci": [
+     0.41,
+     0.47
+    ],
+    "all_in": 28,
+    "all_in_rate": 0.14,
+    "all_in_ci": [
+     0.0987,
+     0.1949
+    ],
+    "zero_fields": 60,
+    "centre_reached": 196,
+    "centre_reached_rate": 0.98,
+    "centre_reached_ci": [
+     0.9497,
+     0.9922
+    ],
+    "median_time_to_all_in_s": 25.02
+   },
+   "heuristic-drive-only": {
+    "fields": 200,
+    "penned_mean": 0.0788,
+    "penned_mean_ci": [
+     0.0575,
+     0.1014
+    ],
+    "penned_median": 0.01,
+    "penned_median_ci": [
+     0.01,
+     0.02
+    ],
+    "all_in": 0,
+    "all_in_rate": 0.0,
+    "all_in_ci": [
+     0.0,
+     0.0188
+    ],
+    "zero_fields": 81,
+    "centre_reached": 200,
+    "centre_reached_rate": 1.0,
+    "centre_reached_ci": [
+     0.9812,
+     1.0
+    ],
+    "median_time_to_all_in_s": null
+   },
+   "no-dog": {
+    "fields": 200,
+    "penned_mean": 0.0004,
+    "penned_mean_ci": [
+     0.0001,
+     0.001
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 0,
+    "all_in_rate": 0.0,
+    "all_in_ci": [
+     0.0,
+     0.0188
+    ],
+    "zero_fields": 196,
+    "centre_reached": 0,
+    "centre_reached_rate": 0.0,
+    "centre_reached_ci": [
+     0.0,
+     0.0188
+    ],
+    "median_time_to_all_in_s": null
+   }
+  },
+  "paired": {
+   "laddered - heuristic": {
+    "penned_mean_diff": 0.2931,
+    "penned_mean_diff_ci": [
+     0.2176,
+     0.3691
+    ],
+    "all_in_rate_diff": 0.37,
+    "all_in_rate_diff_ci": [
+     0.285,
+     0.45
+    ],
+    "mcnemar_all_in": {
+     "only_first": 86,
+     "only_second": 12,
+     "p_exact": 5.93e-15
+    }
+   },
+   "no-curriculum - heuristic": {
+    "penned_mean_diff": 0.3802,
+    "penned_mean_diff_ci": [
+     0.3175,
+     0.4404
+    ],
+    "all_in_rate_diff": 0.075,
+    "all_in_rate_diff_ci": [
+     0.0,
+     0.145
+    ],
+    "mcnemar_all_in": {
+     "only_first": 36,
+     "only_second": 21,
+     "p_exact": 0.0627
+    }
+   },
+   "laddered - no-curriculum": {
+    "penned_mean_diff": -0.0871,
+    "penned_mean_diff_ci": [
+     -0.1564,
+     -0.0189
+    ],
+    "all_in_rate_diff": 0.295,
+    "all_in_rate_diff_ci": [
+     0.205,
+     0.385
+    ],
+    "mcnemar_all_in": {
+     "only_first": 79,
+     "only_second": 20,
+     "p_exact": 1.79e-09
+    }
+   }
+  }
+ },
+ "untrained_population_100_sheep": {
+  "dogs": 48,
+  "fields": 25,
+  "population_mean_penned": 0.0395,
+  "population_mean_penned_ci": [
+   0.0149,
+   0.0718
+  ],
+  "attempts_all_in": 11,
+  "attempts": 1200,
+  "centre_reached_rate": 0.1167,
+  "per_dog_median": 0.0,
+  "per_dog_max": 0.498,
+  "dogs_above_half": 0,
+  "population_all_in_rate": 0.0092
+ },
+ "retrain_seed11_vs_stored": {
+  "attempt-A6/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "ladder-r1-10-sheep/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "ladder-r2-30-sheep/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "ladder-r3-skittish/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "ladder-r4-split/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "ladder-r5-100-sheep/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  },
+  "fresh-100/champion.npy": {
+   "identical": true,
+   "max_abs_diff": 0.0
+  }
+ },
+ "training_replications_100_sheep": {
+  "11 (September run)": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 0.6726,
+    "penned_mean_ci": [
+     0.6162,
+     0.7263
+    ],
+    "penned_median": 0.79,
+    "penned_median_ci": [
+     0.73,
+     1.0
+    ],
+    "all_in": 93,
+    "all_in_rate": 0.465,
+    "all_in_ci": [
+     0.3972,
+     0.5341
+    ],
+    "zero_fields": 40,
+    "centre_reached": 193,
+    "centre_reached_rate": 0.965,
+    "centre_reached_ci": [
+     0.9295,
+     0.9829
+    ],
+    "median_time_to_all_in_s": 16.4
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.7481,
+    "penned_mean_ci": [
+     0.7109,
+     0.7841
+    ],
+    "penned_median": 0.84,
+    "penned_median_ci": [
+     0.82,
+     0.88
+    ],
+    "all_in": 43,
+    "all_in_rate": 0.215,
+    "all_in_ci": [
+     0.1637,
+     0.277
+    ],
+    "zero_fields": 8,
+    "centre_reached": 188,
+    "centre_reached_rate": 0.94,
+    "centre_reached_ci": [
+     0.8981,
+     0.9653
+    ],
+    "median_time_to_all_in_s": 20.6
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 0.1812,
+    "penned_mean_ci": [
+     0.1356,
+     0.2293
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 19,
+    "all_in_rate": 0.095,
+    "all_in_ci": [
+     0.0617,
+     0.1436
+    ],
+    "zero_fields": 142,
+    "centre_reached": 182,
+    "centre_reached_rate": 0.91,
+    "centre_reached_ci": [
+     0.8622,
+     0.9423
+    ],
+    "median_time_to_all_in_s": 15.9
+   },
+   "paired": {
+    "laddered - heuristic": {
+     "penned_mean_diff": 0.2743,
+     "penned_mean_diff_ci": [
+      0.1994,
+      0.3458
+     ],
+     "all_in_rate_diff": 0.36,
+     "all_in_rate_diff_ci": [
+      0.275,
+      0.44
+     ],
+     "mcnemar_all_in": {
+      "only_first": 83,
+      "only_second": 11,
+      "p_exact": 8e-15
+     }
+    },
+    "no-curriculum - heuristic": {
+     "penned_mean_diff": 0.3497,
+     "penned_mean_diff_ci": [
+      0.2899,
+      0.4083
+     ],
+     "all_in_rate_diff": 0.11,
+     "all_in_rate_diff_ci": [
+      0.04,
+      0.18
+     ],
+     "mcnemar_all_in": {
+      "only_first": 38,
+      "only_second": 16,
+      "p_exact": 0.00384
+     }
+    },
+    "thirty-sheep - heuristic": {
+     "penned_mean_diff": -0.2171,
+     "penned_mean_diff_ci": [
+      -0.2821,
+      -0.1516
+     ],
+     "all_in_rate_diff": -0.01,
+     "all_in_rate_diff_ci": [
+      -0.07,
+      0.045
+     ],
+     "mcnemar_all_in": {
+      "only_first": 16,
+      "only_second": 18,
+      "p_exact": 0.864
+     }
+    },
+    "laddered - no-curriculum": {
+     "penned_mean_diff": -0.0755,
+     "penned_mean_diff_ci": [
+      -0.1425,
+      -0.0116
+     ],
+     "all_in_rate_diff": 0.25,
+     "all_in_rate_diff_ci": [
+      0.165,
+      0.33
+     ],
+     "mcnemar_all_in": {
+      "only_first": 68,
+      "only_second": 18,
+      "p_exact": 5.29e-08
+     }
+    }
+   }
+  },
+  "21": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 0.7726,
+    "penned_mean_ci": [
+     0.7349,
+     0.8082
+    ],
+    "penned_median": 0.83,
+    "penned_median_ci": [
+     0.815,
+     0.885
+    ],
+    "all_in": 75,
+    "all_in_rate": 0.375,
+    "all_in_ci": [
+     0.3109,
+     0.4439
+    ],
+    "zero_fields": 2,
+    "centre_reached": 198,
+    "centre_reached_rate": 0.99,
+    "centre_reached_ci": [
+     0.9643,
+     0.9973
+    ],
+    "median_time_to_all_in_s": 22.4
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.5619,
+    "penned_mean_ci": [
+     0.505,
+     0.6184
+    ],
+    "penned_median": 0.645,
+    "penned_median_ci": [
+     0.595,
+     0.7
+    ],
+    "all_in": 66,
+    "all_in_rate": 0.33,
+    "all_in_ci": [
+     0.2686,
+     0.3978
+    ],
+    "zero_fields": 46,
+    "centre_reached": 183,
+    "centre_reached_rate": 0.915,
+    "centre_reached_ci": [
+     0.8681,
+     0.9463
+    ],
+    "median_time_to_all_in_s": 16.2
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 0.2493,
+    "penned_mean_ci": [
+     0.1972,
+     0.3038
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.0
+    ],
+    "all_in": 28,
+    "all_in_rate": 0.14,
+    "all_in_ci": [
+     0.0987,
+     0.1949
+    ],
+    "zero_fields": 129,
+    "centre_reached": 113,
+    "centre_reached_rate": 0.565,
+    "centre_reached_ci": [
+     0.4957,
+     0.6318
+    ],
+    "median_time_to_all_in_s": 16.88
+   },
+   "paired": {
+    "laddered - heuristic": {
+     "penned_mean_diff": 0.3743,
+     "penned_mean_diff_ci": [
+      0.3132,
+      0.4361
+     ],
+     "all_in_rate_diff": 0.27,
+     "all_in_rate_diff_ci": [
+      0.19,
+      0.35
+     ],
+     "mcnemar_all_in": {
+      "only_first": 67,
+      "only_second": 13,
+      "p_exact": 6.42e-10
+     }
+    },
+    "no-curriculum - heuristic": {
+     "penned_mean_diff": 0.1636,
+     "penned_mean_diff_ci": [
+      0.0902,
+      0.2345
+     ],
+     "all_in_rate_diff": 0.225,
+     "all_in_rate_diff_ci": [
+      0.145,
+      0.3
+     ],
+     "mcnemar_all_in": {
+      "only_first": 59,
+      "only_second": 14,
+      "p_exact": 1.01e-07
+     }
+    },
+    "thirty-sheep - heuristic": {
+     "penned_mean_diff": -0.1489,
+     "penned_mean_diff_ci": [
+      -0.2188,
+      -0.0766
+     ],
+     "all_in_rate_diff": 0.035,
+     "all_in_rate_diff_ci": [
+      -0.03,
+      0.105
+     ],
+     "mcnemar_all_in": {
+      "only_first": 27,
+      "only_second": 20,
+      "p_exact": 0.382
+     }
+    },
+    "laddered - no-curriculum": {
+     "penned_mean_diff": 0.2107,
+     "penned_mean_diff_ci": [
+      0.1437,
+      0.2776
+     ],
+     "all_in_rate_diff": 0.045,
+     "all_in_rate_diff_ci": [
+      -0.05,
+      0.14
+     ],
+     "mcnemar_all_in": {
+      "only_first": 51,
+      "only_second": 42,
+      "p_exact": 0.407
+     }
+    }
+   }
+  },
+  "31": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 0.7963,
+    "penned_mean_ci": [
+     0.7477,
+     0.8417
+    ],
+    "penned_median": 1.0,
+    "penned_median_ci": [
+     1.0,
+     1.0
+    ],
+    "all_in": 126,
+    "all_in_rate": 0.63,
+    "all_in_ci": [
+     0.5612,
+     0.6939
+    ],
+    "zero_fields": 18,
+    "centre_reached": 199,
+    "centre_reached_rate": 0.995,
+    "centre_reached_ci": [
+     0.9722,
+     0.9991
+    ],
+    "median_time_to_all_in_s": 33.0
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.6187,
+    "penned_mean_ci": [
+     0.5708,
+     0.6653
+    ],
+    "penned_median": 0.78,
+    "penned_median_ci": [
+     0.73,
+     0.83
+    ],
+    "all_in": 11,
+    "all_in_rate": 0.055,
+    "all_in_ci": [
+     0.031,
+     0.0958
+    ],
+    "zero_fields": 32,
+    "centre_reached": 151,
+    "centre_reached_rate": 0.755,
+    "centre_reached_ci": [
+     0.691,
+     0.8094
+    ],
+    "median_time_to_all_in_s": 24.6
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 0.5809,
+    "penned_mean_ci": [
+     0.5232,
+     0.6385
+    ],
+    "penned_median": 0.7,
+    "penned_median_ci": [
+     0.6,
+     0.79
+    ],
+    "all_in": 71,
+    "all_in_rate": 0.355,
+    "all_in_ci": [
+     0.292,
+     0.4235
+    ],
+    "zero_fields": 37,
+    "centre_reached": 196,
+    "centre_reached_rate": 0.98,
+    "centre_reached_ci": [
+     0.9497,
+     0.9922
+    ],
+    "median_time_to_all_in_s": 18.5
+   },
+   "paired": {
+    "laddered - heuristic": {
+     "penned_mean_diff": 0.398,
+     "penned_mean_diff_ci": [
+      0.3299,
+      0.4618
+     ],
+     "all_in_rate_diff": 0.525,
+     "all_in_rate_diff_ci": [
+      0.445,
+      0.6
+     ],
+     "mcnemar_all_in": {
+      "only_first": 111,
+      "only_second": 6,
+      "p_exact": 3.98e-26
+     }
+    },
+    "no-curriculum - heuristic": {
+     "penned_mean_diff": 0.2204,
+     "penned_mean_diff_ci": [
+      0.1541,
+      0.2849
+     ],
+     "all_in_rate_diff": -0.05,
+     "all_in_rate_diff_ci": [
+      -0.1,
+      -0.005
+     ],
+     "mcnemar_all_in": {
+      "only_first": 7,
+      "only_second": 17,
+      "p_exact": 0.0639
+     }
+    },
+    "thirty-sheep - heuristic": {
+     "penned_mean_diff": 0.1826,
+     "penned_mean_diff_ci": [
+      0.1067,
+      0.256
+     ],
+     "all_in_rate_diff": 0.25,
+     "all_in_rate_diff_ci": [
+      0.17,
+      0.325
+     ],
+     "mcnemar_all_in": {
+      "only_first": 63,
+      "only_second": 13,
+      "p_exact": 5.04e-09
+     }
+    },
+    "laddered - no-curriculum": {
+     "penned_mean_diff": 0.1776,
+     "penned_mean_diff_ci": [
+      0.1093,
+      0.2442
+     ],
+     "all_in_rate_diff": 0.575,
+     "all_in_rate_diff_ci": [
+      0.5,
+      0.65
+     ],
+     "mcnemar_all_in": {
+      "only_first": 119,
+      "only_second": 4,
+      "p_exact": 1.77e-30
+     }
+    }
+   }
+  },
+  "41": {
+   "laddered": {
+    "fields": 200,
+    "penned_mean": 0.6309,
+    "penned_mean_ci": [
+     0.578,
+     0.6824
+    ],
+    "penned_median": 0.675,
+    "penned_median_ci": [
+     0.54,
+     0.86
+    ],
+    "all_in": 79,
+    "all_in_rate": 0.395,
+    "all_in_ci": [
+     0.3298,
+     0.4641
+    ],
+    "zero_fields": 29,
+    "centre_reached": 197,
+    "centre_reached_rate": 0.985,
+    "centre_reached_ci": [
+     0.9568,
+     0.9949
+    ],
+    "median_time_to_all_in_s": 19.45
+   },
+   "no-curriculum": {
+    "fields": 200,
+    "penned_mean": 0.5249,
+    "penned_mean_ci": [
+     0.4766,
+     0.5731
+    ],
+    "penned_median": 0.545,
+    "penned_median_ci": [
+     0.485,
+     0.685
+    ],
+    "all_in": 9,
+    "all_in_rate": 0.045,
+    "all_in_ci": [
+     0.0239,
+     0.0833
+    ],
+    "zero_fields": 36,
+    "centre_reached": 140,
+    "centre_reached_rate": 0.7,
+    "centre_reached_ci": [
+     0.6332,
+     0.7593
+    ],
+    "median_time_to_all_in_s": 14.35
+   },
+   "thirty-sheep": {
+    "fields": 200,
+    "penned_mean": 0.3033,
+    "penned_mean_ci": [
+     0.2462,
+     0.3614
+    ],
+    "penned_median": 0.0,
+    "penned_median_ci": [
+     0.0,
+     0.01
+    ],
+    "all_in": 41,
+    "all_in_rate": 0.205,
+    "all_in_ci": [
+     0.1549,
+     0.2663
+    ],
+    "zero_fields": 113,
+    "centre_reached": 170,
+    "centre_reached_rate": 0.85,
+    "centre_reached_ci": [
+     0.7939,
+     0.8929
+    ],
+    "median_time_to_all_in_s": 33.55
+   },
+   "paired": {
+    "laddered - heuristic": {
+     "penned_mean_diff": 0.2326,
+     "penned_mean_diff_ci": [
+      0.1615,
+      0.3017
+     ],
+     "all_in_rate_diff": 0.29,
+     "all_in_rate_diff_ci": [
+      0.21,
+      0.37
+     ],
+     "mcnemar_all_in": {
+      "only_first": 69,
+      "only_second": 11,
+      "p_exact": 2.05e-11
+     }
+    },
+    "no-curriculum - heuristic": {
+     "penned_mean_diff": 0.1266,
+     "penned_mean_diff_ci": [
+      0.0593,
+      0.1937
+     ],
+     "all_in_rate_diff": -0.06,
+     "all_in_rate_diff_ci": [
+      -0.115,
+      -0.01
+     ],
+     "mcnemar_all_in": {
+      "only_first": 8,
+      "only_second": 20,
+      "p_exact": 0.0357
+     }
+    },
+    "thirty-sheep - heuristic": {
+     "penned_mean_diff": -0.095,
+     "penned_mean_diff_ci": [
+      -0.1668,
+      -0.0227
+     ],
+     "all_in_rate_diff": 0.1,
+     "all_in_rate_diff_ci": [
+      0.03,
+      0.17
+     ],
+     "mcnemar_all_in": {
+      "only_first": 35,
+      "only_second": 15,
+      "p_exact": 0.0066
+     }
+    },
+    "laddered - no-curriculum": {
+     "penned_mean_diff": 0.1061,
+     "penned_mean_diff_ci": [
+      0.0408,
+      0.1706
+     ],
+     "all_in_rate_diff": 0.35,
+     "all_in_rate_diff_ci": [
+      0.28,
+      0.425
+     ],
+     "mcnemar_all_in": {
+      "only_first": 75,
+      "only_second": 5,
+      "p_exact": 4.25e-17
+     }
+    }
+   }
+  }
+ },
+ "across_training_seeds": {
+  "laddered": {
+   "seeds": [
+    "11 (September run)",
+    "21",
+    "31",
+    "41"
+   ],
+   "penned_mean": [
+    0.6726,
+    0.7726,
+    0.7963,
+    0.6309
+   ],
+   "all_in_rate": [
+    0.465,
+    0.375,
+    0.63,
+    0.395
+   ],
+   "penned_mean_range": [
+    0.6309,
+    0.7963
+   ],
+   "all_in_rate_range": [
+    0.375,
+    0.63
+   ]
+  },
+  "no-curriculum": {
+   "seeds": [
+    "11 (September run)",
+    "21",
+    "31",
+    "41"
+   ],
+   "penned_mean": [
+    0.7481,
+    0.5619,
+    0.6187,
+    0.5249
+   ],
+   "all_in_rate": [
+    0.215,
+    0.33,
+    0.055,
+    0.045
+   ],
+   "penned_mean_range": [
+    0.5249,
+    0.7481
+   ],
+   "all_in_rate_range": [
+    0.045,
+    0.33
+   ]
+  },
+  "thirty-sheep": {
+   "seeds": [
+    "11 (September run)",
+    "21",
+    "31",
+    "41"
+   ],
+   "penned_mean": [
+    0.1812,
+    0.2493,
+    0.5809,
+    0.3033
+   ],
+   "all_in_rate": [
+    0.095,
+    0.14,
+    0.355,
+    0.205
+   ],
+   "penned_mean_range": [
+    0.1812,
+    0.5809
+   ],
+   "all_in_rate_range": [
+    0.095,
+    0.355
+   ]
+  }
+ }
+}
